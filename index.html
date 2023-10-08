@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ООО Успех</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<main>
+  <header id="header">
+    <a href="#" class="logo">Успех</a>
+    <ul class="navigation">
+      <li><a href="#banner" onclick="toggle();">Главное</a></li>
+      <li><a href="#about" onclick="toggle();">О нас</a></li>
+      <li><a href="#portfolio" onclick="toggle();">Наши объекты</a></li>
+      <li><a href="#partners" onclick="toggle();">Партнеры</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle();"></div>
+  </header>
+
+  <section class="banner" id="banner">
+    <div class="glass"></div>
+    <div class="container">
+      <div class="box">
+        <h2>Вентиляции</h2>
+        <div class="imgBx">
+          <img src="Ventilation.jpg">
+        </div>
+      </div>
+      <div class="box">
+        <h2>Кондиционеры</h2>
+        <div class="imgBx">
+          <img src="Conditioner.jpg">
+        </div>
+      </div>
+      <div class="box">
+        <h2>Проектирование</h2>
+        <div class="imgBx">
+          <img src="Designing.jpg">
+        </div>
+      </div>
+      <div class="box">
+        <h2>Монтаж</h2>
+        <div class="imgBx">
+          <img src="Mounting.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="sci">
+        <label class="gmail">Адресс электронной почты:&nbsp;</label>
+        <li><a href="mailto:info-uspeh@gmail.ru">info-uspeh@mail.ru</a></li>
+      </ul>
+      <p class="copyrightText">@ Klimen. 2023</p>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>О нас</h3>
+        <p>Мы выполняем работы по проектированию, комплектации, поставке, 
+        монтажу и пуско-наладочным работам систем вентиляции и кондиционирования, 
+        как обычных сплит-систем и бытовых вентиляторов, 
+        так и центральных систем типа мультизональных и чиллерных установаок , 
+        вентиляционных систем с рекуперацией тепла на объектах любой сложности</p>
+        <a href="#" class="btn">Подробнее</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="portfolio">
+    <div class="content">
+     <div class="mxw800p">
+       <h3>Наши объекты</h3>
+       <p>Stricken cities want tourism as a national economic priority. Mayors and tourism officials, shaken by the loss of more than 500,000 travel and tourism jobs since the Sept. </p>
+       <a href="#" class="btn">Подробнее</a>
+     </div>
+     <div class="services">
+      <div class="box">
+        <div class="iconBx">
+          <img src="icon1.png">
+        </div>
+        <div class="content">
+          <h2>MEGA</h2>
+          <p>pass</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="iconBx">
+          <img src="icon2.png">
+        </div>
+        <div class="content">
+          <h2>METRO</h2>
+          <p>pass</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="iconBx">
+          <img src="icon3.png">
+        </div>
+        <div class="content">
+          <h2>Транснефть</h2>
+          <p>pass</p>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <section class="sec" id="partners">
+    <div class="content">
+     <div class="mxw800p">
+       <h3>Meet Our Expert</h3>
+       <p>Stricken cities want tourism as a national economic priority. Mayors and tourism officials, shaken by the loss of more than 500,000 travel and tourism jobs since the Sept. 11 terrorist attacks, are meeting here today to seek federal help. It's not just New York and other big cities that haven't bounced back. The drop in international tourism has cost US cities more than $12.5 billion.</p>
+       <a href="#" class="btn"> Read Out Story</a>
+     </div>
+     <div class="teamBx">
+      <div class="member">
+        <div class="imgBx">
+          <img src="1.jpg" max-width="100px" margin-top="40px">
+        </div>
+        <div class="details">
+          <div>
+            <h2>John Doe<br><span>Creative Director</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="imgBx">
+          <img src="2.jpg">
+        </div>
+        <div class="details">
+          <div>
+            <h2>John Doe<br><span>Creative Director</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="imgBx">
+          <img src="3.jpg">
+        </div>
+        <div class="details">
+          <div>
+            <h2>John Doe<br><span>Creative Director</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="imgBx">
+          <img src="4.jpg">
+        </div>
+        <div class="details">
+          <div>
+            <h2>John Doe<br><span>Creative Director</span></h2>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+  
+<script>
+  const imgBx = document.querySelectorAll('.imgBx');
+  imgBx.forEach(popup => popup.addEventListener('click', () => {
+    popup.classList.toggle('active')
+  }));
+
+  function toggle(){
+      var header = document.querySelector("header");
+      header.classList.toggle("active");
+    }
+
+  
+</script>
+</body>
+</html>
